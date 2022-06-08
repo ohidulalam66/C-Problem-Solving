@@ -1,11 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
     char ch;
     printf("Enter your value: \n");
     scanf("%c", &ch);
-    switch(ch)
+    switch (ch)
     {
     case '&':
         printf("value is &.\n");
@@ -23,9 +23,7 @@ int main()
         printf("value is @.\n");
         break;
     default:
-        printf("value is not availablel. \n");
+        printf("value is not available. \n");
     }
     return 0;
 }
-
-
