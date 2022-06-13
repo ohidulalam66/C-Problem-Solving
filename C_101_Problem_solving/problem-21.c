@@ -1,18 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
-    int a,b,c;
+    int a, b, c;
     printf("Enter the three integer number?\n");
     scanf("%d%d%d", &a, &b, &c);
 
-    if(a > b || a < c) {
+    if (a > b || a < c)
+    {
         printf("Max Number is : %d", a);
     }
-    else if(b > c) {
+    else if (b > c)
+    {
         printf("Max Number is : %d", b);
     }
-    else {
+    else
+    {
         printf("Max Number is: %d", c);
     }
 

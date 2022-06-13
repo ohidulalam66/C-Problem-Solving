@@ -1,18 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
-    int a, b, x,y, euq;
+    int a, b, x, y, euq;
     printf("Enter the first integer Number:\n");
-    scanf("%d",&a);
+    scanf("%d", &a);
     printf("Enter the second integer Number:\n");
-    scanf("%d",&b);
+    scanf("%d", &b);
     printf("Enter the third  integer Number:\n");
-    scanf("%d",&x);
+    scanf("%d", &x);
     printf("Enter the last integer Number:\n");
-    scanf("%d",&y);
+    scanf("%d", &y);
 
-    euq =(a+b)*(x+b);
+    euq = (a + b) * (x + b);
     printf("The equation of %d", euq);
 
     return 0;

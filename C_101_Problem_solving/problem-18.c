@@ -1,15 +1,17 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
     int age;
     printf("Enter your age:");
-    scanf("%d",&age);
+    scanf("%d", &age);
 
-    if(age >= 18) {
+    if (age >= 18)
+    {
         printf("Yes, You will create new account!");
     }
-    else {
+    else
+    {
         printf("Sorry, You will do not create account!");
     }
 

@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
@@ -6,13 +6,14 @@ int main()
     printf("Enter a integer number:");
     scanf("%d", &num);
 
-    if(num % 2 == 0) {
+    if (num % 2 == 0)
+    {
         printf("%d is EVEN Number", num);
     }
-    else {
-        printf("%d is ODD Number",num);
+    else
+    {
+        printf("%d is ODD Number", num);
     }
-
 
     return 0;
 }
