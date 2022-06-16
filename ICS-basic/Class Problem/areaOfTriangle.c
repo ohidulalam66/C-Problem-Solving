@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <math.h>
-int main() {
+int main()
+{
 
-      float a,b,c,s,area;
+      float a, b, c, s, area;
       printf("Enter the Values of three edges: \n");
-      scanf("%f%f%f",&a,&b,&c);
+      scanf("%f%f%f", &a, &b, &c);
 
-      s = (a + b + c) / 2 ;
-      area = sqrt(s*(s-a)*(s-b)*(s-c));
+      s = (a + b + c) / 2;
+      area = sqrt(s * (s - a) * (s - b) * (s - c));
 
-      printf("Area of The Triangle is : %.3f",area); 
+      printf("Area of The Triangle is : %.3f", area);
 
-return 0;
+      return 0;
 }
