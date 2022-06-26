@@ -3,7 +3,7 @@
 int main()
 {
     float a, b, c;
-    printf("Enter the three edges :");
+    printf("Enter the three edges :\n");
     scanf("%f %f %f", &a, &b, &c);
 
     if ((a * a) + (b * b) == (c * c) || (b * b) + (c * c) == (a * a) || (c * c) + (a * a) == (b * b))
@@ -17,5 +17,3 @@ int main()
 
     return 0;
 }
-
-// this problem is unfinished
