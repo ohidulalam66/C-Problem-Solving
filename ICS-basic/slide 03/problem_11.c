@@ -10,7 +10,7 @@ int main()
     printf("Enter a year:\n");
     scanf("%d", &year);
 
-    if ((year % 400 == 0) && (year % 100 != 0) && year % 4 == 0)
+    if ((year % 400 == 0) || (year % 100 != 0) && year % 4 == 0)
     {
         printf("%d is a leap year.", year);
     }
@@ -20,5 +20,3 @@ int main()
     }
     return 0;
 }
-
-// This problem is unfinished
